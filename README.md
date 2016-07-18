@@ -7,10 +7,10 @@ Lab 1:  Create your Amazon Developer account (5 minutes)
 
 Lab 2:  Install alexa skills plugin (10 minutes)
 ============
-1)  Install sdkman
+*  Install sdkman
     Follow instructions at <a href="http://sdkman.io/install.html">http://sdkman.io/install.html</a>
-2)  Download and install gradle
-3)  Download and install grails
+*  Download and install gradle
+*  Download and install grails
 
 
 add the following to the dependencies {} block to your build.gradle:
