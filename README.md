@@ -20,9 +20,10 @@ Lab 2:  Install Gradle and Grails (10 minutes)
 
 Lab 3:  Create app and Install alexa skills plugin (10 minutes)
 ============
-1)  Create the app
+1.  Create the app
   *  grails create-app HelloWorld
-2)  Update build.gradle
+
+2.  Update build.gradle
   *  add the following to the dependencies {} block to your build.gradle:
 ```
 dependencies {
@@ -39,7 +40,7 @@ repositories {
 }
 
 ```
-3)  Create your speechlet
+3.  Create your speechlet
   *  run 'grails create-speechlet Hello'
 
 
