@@ -11,13 +11,19 @@ Lab 2:  Install Gradle and Grails (10 minutes)
   * Linux/OSX users:  Follow instructions at <a href="http://sdkman.io/install.html">http://sdkman.io/install.html</a>
   * Windows users try out https://github.com/flofreud/posh-gvm
 2.  Download and install gradle 2.1.13
+  *  Linux/OSX users:
+  *  Windows users:
 3.  Download and install grails 3.0.17
+  *  Linux/OSX users:
+  *  Windows users:
 
 
 Lab 3:  Create app and Install alexa skills plugin (10 minutes)
 ============
-
-add the following to the dependencies {} block to your build.gradle:
+1)  Create the app
+  *  grails create-app HelloWorld
+2)  Update build.gradle
+  *  add the following to the dependencies {} block to your build.gradle:
 ```
 dependencies {
      compile "org.grails.plugins:alexa-skills:0.1.1"
@@ -33,11 +39,8 @@ repositories {
 }
 
 ```
-
-How it works
-============
-run 'grails create-speechlet <classPrefix>'
-This will create a speechlet class file located in grails-app/speechlets. Do not use the suffix 'Speechlet' because that will be automatically appended to the name.
+3)  Create your speechlet
+  *  run 'grails create-speechlet Hello'
 
 
 Configuration
