@@ -1,11 +1,17 @@
 # alexa-lab
-This is the Alexa skills Plugin!
 
-This plugin helps you create Speechlets/Skills on Grails. It will create a starter class for you
-so you can get running quickly making your own skills.
-
-Installation
+Lab 1:  Create your Amazon Developer account (5 minutes)
 ============
+1)  Go to <a href="https://developer.amazon.com">https://developer.amazon.com</a>
+2)  Use the link in the upper right hand corner to sign in to the Amazon Developer Portal or create your account.
+
+Lab 2:  Install alexa skills plugin (10 minutes)
+============
+1)  Install sdkman
+    Follow instructions at <a href="http://sdkman.io/install.html">http://sdkman.io/install.html</a>
+2)  Download and install gradle
+3)  Download and install grails
+
 
 add the following to the dependencies {} block to your build.gradle:
 ```
