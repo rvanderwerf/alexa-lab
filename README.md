@@ -25,7 +25,6 @@ Lab 3:  Create app and Install alexa skills plugin (10 minutes)
 
 2.  Update build.gradle
   *  add the following to the dependencies {} block to your build.gradle:
-  *
 ```
 dependencies {
      compile "org.grails.plugins:alexa-skills:0.1.1"
@@ -44,6 +43,53 @@ repositories {
 3.  Create your speechlet
   *  run 'grails create-speechlet Hello'
 
+Lab 4:  Define the Alexa app (10 minutes)
+============
+1.  Go to <a href="https://developer.amazon.com">https://developer.amazon.com</a>
+
+<img src="http://grailsblog.ociweb.com/images/alexa/developerportal-1.png"/>
+
+* Pull down the 'twitterAuth' app <a href="https://github.com/rvanderwerf/twitterAuth">here</a> to get some Intents/Sample utterances to try. They are located in src/main/resources.
+
+* Sign up for the Amazon developer program <a href="https://developer.amazon.com">here</a> if you haven't already
+
+* Click on Apps and Services -> Alexa
+
+* Click on Alexa Skill Kit / Get Started -> Add New Skill
+
+<img src="http://grailsblog.ociweb.com/images/alexa/developerportal2.png"/>
+
+* Pick any name and any invocation name you want to start the app on your Echo / Alexa Device
+
+
+<img src="http://grailsblog.ociweb.com/images/alexa/developerportal3.png"/>
+
+* Copy the contents of src/main/resources/IntentSchema.json into Intent Schema.
+
+* Don't fill in anything for slots
+
+* Under Sample Utterances, copy the contents of the file src/main/resources/SampleUtterances.txt
+
+<img src="http://grailsblog.ociweb.com/images/alexa/developerportal4.png"/>
+
+* Under configuration Copy the url for /twitterAuth/twitter/index for the endpoint for your server (Choose amazon https not ARN). Click next
+
+* Leave 'enable account linking' turned off.
+
+* For domain list, enter a domain that matches your SSL cert the oauth tokens will be valid for. You may use a self-signed cert for development mode, but if you want to
+publish your skill, your server will need to be running a real recognized certificate (a cheap option is RapidSSL).
+
+* Enter the url for the privacy policy on your server. It can be any valid web page, a link will show during account linking in the alexa app
+
+* Hit Save
+
+* Click on SSL Certificate. If you have a self-signed cert (will only work for DEV mode) paste it here under 'I will upload a self-signed certificate in X.509 format.'
+
+* Hit Save and go to Test page and hit Save
+
+<img src="http://grailsblog.ociweb.com/images/alexa/developerportal5.png"/>
+
+* Go to Privacy and Compliance, and fill out the info there (It's required)
 
 Configuration
 =============
