@@ -11,11 +11,11 @@ Lab 2:  Install Gradle and Grails (10 minutes)
   * Linux/OSX users:  Follow instructions at <a href="http://sdkman.io/install.html">http://sdkman.io/install.html</a>
   * Windows users try out https://github.com/flofreud/posh-gvm
 2.  Download and install gradle 2.1.13
-  *  Linux/OSX users:  sdk install gradle 2.1.13
-  *  Windows users:   gvm install gradle 2.1.13
+  *  Linux/OSX users:  ``` sdk install gradle 2.1.13 ```
+  *  Windows users:   ``` gvm install gradle 2.1.13 ```
 3.  Download and install grails 3.0.17
-  *  Linux/OSX users:  sdk install grails 3.0.17
-  *  Windows users:   gvm install grails 3.0.17
+  *  Linux/OSX users:  ``` sdk install grails 3.0.17 ```
+  *  Windows users:  ``` gvm install grails 3.0.17 ```
 
 
 Lab 3:  Create app and Install alexa skills plugin (10 minutes)
