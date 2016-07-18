@@ -21,17 +21,17 @@ Lab 2:  Install Gradle and Grails (10 minutes)
 Lab 3:  Create app and Install alexa skills plugin (10 minutes)
 ============
 1.  Create the app
-  *  grails create-app HelloWorld
+  *  ```grails create-app HelloWorld```
 
 2.  Update build.gradle
   *  add the following to the dependencies {} block to your build.gradle:
-```
+  * ```
 dependencies {
      compile "org.grails.plugins:alexa-skills:0.1.1"
 }
 ```
 
-also if you have issues resolving the plugin, try adding my bintray repo (NOT to buildscript block but the lower one):
+  * also if you have issues resolving the plugin, try adding my bintray repo (NOT to buildscript block but the lower one):
 
 ```
 
