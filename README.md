@@ -25,7 +25,8 @@ Lab 3:  Create app and Install alexa skills plugin (10 minutes)
 
 2.  Update build.gradle
   *  add the following to the dependencies {} block to your build.gradle:
-  * ```
+  *
+```
 dependencies {
      compile "org.grails.plugins:alexa-skills:0.1.1"
 }
