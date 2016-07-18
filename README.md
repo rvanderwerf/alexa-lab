@@ -2,16 +2,16 @@
 
 Lab 1:  Create your Amazon Developer account (5 minutes)
 ============
-#  Go to <a href="https://developer.amazon.com">https://developer.amazon.com</a>
-#  Use the link in the upper right hand corner to sign in to the Amazon Developer Portal or create your account.
+1.  Go to <a href="https://developer.amazon.com">https://developer.amazon.com</a>
+2. Use the link in the upper right hand corner to sign in to the Amazon Developer Portal or create your account.
 
 Lab 2:  Install Gradle and Grails (10 minutes)
 ============
-#  Install sdkman
+1.  Install sdkman
    Follow instructions at <a href="http://sdkman.io/install.html">http://sdkman.io/install.html</a>
    if on windows try out https://github.com/flofreud/posh-gvm
-#  Download and install gradle 2.1.13
-#  Download and install grails 3.0.17
+2.  Download and install gradle 2.1.13
+3.  Download and install grails 3.0.17
 
 
 Lab 3:  Create app and Install alexa skills plugin (10 minutes)
